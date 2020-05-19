@@ -56,9 +56,12 @@ body{
     top: 0;
     left: 0;
     min-height: 300px;
-    z-index:0;
+   
 }
 
-.carousel-item p{
-    z-index:1 ;
+#carouselButton {
+    right:0px;
+    position: absolute;
+    bottom: 0px;
+    z-index: 1;
 }
